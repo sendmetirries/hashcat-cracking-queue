@@ -80,3 +80,59 @@ http://127.0.0.1:5000
 
 
 
+📝 Usage
+
+    Log in with your username and password
+
+    Upload a hash file
+
+    Choose a hash type (e.g. 0 = MD5, 1000 = NTLM, etc.)
+
+    Select a wordlist and optionally a rule
+
+    Submit the job
+
+    Track job status on the dashboard
+
+    Get notified via email or webhook when it's done
+
+⚠️ Requirements
+
+    Python 3.7+
+
+    Hashcat installed and available in your system PATH
+
+    SMTP-enabled email (Gmail works with app password)
+
+    Internet access for webhook delivery
+
+🔐 Security Tips
+
+    Use strong secrets in .env and users.json
+
+    Use HTTPS if deploying outside localhost
+
+    Protect against malicious uploads if exposing publicly
+
+    Regularly review jobs, logs, and audit users
+
+📄 License
+
+This project is licensed under the MIT License.
+🙌 Credits
+
+Built with ❤️ using Python, Flask, and Hashcat.
+
+📬 Contact / Contribute
+
+Want to contribute? Spot a bug?
+Open an issue or submit a pull request on GitHub. 
+contact ikuria229@gmail.com
+
+---
+
+✅ Ready to go!  
+
+
+
+
